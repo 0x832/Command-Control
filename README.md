@@ -17,7 +17,7 @@ Command & Control (C&C) es una aplicación desarrollada en Python que permite ej
   
 ## Uso
 - Configura tus credenciales de Telegram. Debes proporcionar
-   tu TOKEN de bot de Telegram y el CHAT_ID del destinatario o grupo al que deseas enviar la información.
+   tu TOKEN de bot de Telegram y el AUTHORIZED_USERS del destinatario o grupo al que deseas enviar la información.
 
     ```python  
         TOKEN = ''
