@@ -19,7 +19,7 @@ def authorized_only(func):
 
 async def notify_startup(context):
     for chat_id in AUTHORIZED_USERS:
-        await context.bot.send_message(chat_id=chat_id, text="👤 Alguien ha iniciado el PC \n\n Si quieres apagarlo ⮕ /shutdown 👤")
+        await 
 
 @authorized_only
 async def lock_screen(update, context):
