@@ -2,7 +2,7 @@
 # Command & control (C&C)
 Command & Control (C&C) es una aplicación desarrollada en Python que permite ejecutar comandos de Windows a través de un bot de Telegram. Esta herramienta es especialmente útil para la gestión remota de sistemas, ya que ofrece la posibilidad de programar diversas funciones, entre las cuales se incluyen:
    
-    -Apagar el sistema: Utilizando 
+    -Apagar el sistema:
     -Reiniciar el sistema: 
     -Bloquear la pantalla: 
 
