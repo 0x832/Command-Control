@@ -3,8 +3,6 @@ from telegram.ext import Application, CommandHandler
 import os
 from functools import wraps
 import pyautogui
-from io import BytesIO  
-
 
 TOKEN = ''
 AUTHORIZED_USERS = []  
@@ -18,7 +16,6 @@ def authorized_only(func):
             return 
         return await func(update, context, *args, **kwargs)  
     return wrapped
-
 
 async def notify_startup(context):
     for chat_id in AUTHORIZED_USERS:
@@ -39,7 +36,6 @@ async def reboot(update, context):
     await update.message.reply_text('Reiniciando el PC...')
     os.system('shutdown /r /t 0')
 
-
 @authorized_only
 async def info(update, context):
     await update.message.reply_text("""
@@ -53,7 +49,6 @@ async def info(update, context):
     Usa estos comandos para 
     controlar tu PC de manera remota.
     """)
-
 def main():
     application = Application.builder().token(TOKEN).build()
 
@@ -61,9 +56,7 @@ def main():
     application.add_handler(CommandHandler('shutdown', shutdown))
     application.add_handler(CommandHandler('reboot', reboot))    
     application.add_handler(CommandHandler('start', info))  
-    
 
     application.run_polling()
-
 if __name__ == '__main__':
     main()
