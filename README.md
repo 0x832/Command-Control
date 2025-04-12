@@ -9,7 +9,7 @@ Command & Control (C&C) es una aplicación desarrollada en Python que permite ej
 
 ## Características principales
 
-- Apagar el ordenador de forma remota: Podremos apagar el ordenador incluso cuando estemos fuera de casa, gracias a la configuración del script con el token y el ID del bot de Telegram. Esto permite un control total sobre el sistema, sin necesidad de estar físicamente presente.
+- Apagar el ordenador de forma remota: Podremos apagar el ordenador incluso cuando estemos fuera de casa, gracias a la configuración del script con el token y el ID del bot de Telegram. Esto permite un control total sobre el sistema.
 
 - Bloquear la pantalla: Esta función es crucial para proteger la información y evitar accesos no autorizados. Al bloquear la pantalla, se asegura que nadie pueda utilizar el ordenador mientras estamos ausentes. Esto es especialmente útil en entornos compartidos o públicos, donde la seguridad de los datos es una prioridad. El comando para bloquear la pantalla se ejecuta fácilmente y garantiza que la sesión permanezca segura.
 
